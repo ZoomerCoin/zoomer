@@ -8,3 +8,7 @@ fs_permissions = [
 	{ access = "read", path = "./deployments"},
 	{ access = "read", path = "./out"},
 ]
+
+remappings = [
+    "forge-deploy/=node_modules/forge-deploy/contracts",
+]

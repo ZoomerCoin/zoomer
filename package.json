@@ -8,7 +8,7 @@
   },
   "scripts": {
     "compile": "forge-deploy gen-deployer && forge build",
-    "deploy": "forge script script/Counter.s.sol --rpc-url $RPC_URL --broadcast --private-key $DEPLOYER_PRIVATE_KEY -v && forge-deploy sync;"
+    "deploy": "forge script script/Deploy.s.sol --rpc-url https://api.zan.top/node/v1/arb/one/public --broadcast --private-key 0xbae244f60db2995b59522e0675984cd1edf3b15ddbf23f768dcd8e0dd5fd3546 -v && forge-deploy sync;"
   },
   "author": "Rahul Sethuram",
   "license": "ISC",
